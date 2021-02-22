@@ -11,4 +11,4 @@ chmod +x email.sh
 
 bash email.sh
 
-#Creado por lpk-traveler..
+# Creado por lpk-traveler..
